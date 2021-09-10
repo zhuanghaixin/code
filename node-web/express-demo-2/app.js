@@ -40,6 +40,7 @@ let count = 0
 app.use((error, req, res, next) => {
     count += 1
     console.log(`当前有${count}个错误`)
+    console.log(1)
     next(error)
 })
 // app.use((error, req, res, next) => {
