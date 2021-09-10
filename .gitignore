@@ -4,3 +4,4 @@
 *.log
 /node-web/express-demo/node_modules
 /node-web/express-demo-1/node_modules
+/node-web/express-demo-2/node_modules
